@@ -1,0 +1,8 @@
+<launch>
+
+   <!-- Bring up the arbotix driver with a configuration file appropriate to the robot -->
+   <node name="inmoov_controller" pkg="inmoov_move" type="robot_controller5.py" output="screen">
+      <rosparam command="load" file="$(find inmoov_move)/launch/demo.yaml" />
+   </node>
+
+</launch>

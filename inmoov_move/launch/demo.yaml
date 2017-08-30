@@ -1,0 +1,18 @@
+
+elmo_driver: {joints: [waist_rotate,waist_lean,head_updown,head_leftright,left_shoulder_side,
+left_shoulder_up,left_bicep_rotate,left_bicep,left_hand,right_shoulder_side,right_shoulder_up,
+right_bicep_rotate,right_bicep]}
+
+
+robotjoints: [virtual_joint, base_to_pedestal, pedestal_to_mid_stomach,waist_rotate,disk,
+waist_lean,chestplate,kinect,head_updown,head_leftright,jaw,skull,left_ear,right_ear,
+eyes_updown,right_camera,right_eye,right_iris,eye_leftright,left_camera,left_eye,left_iris,
+left_eye_leftright,face,right_shoulder_up,right_bicep_rotate,right_bicep,right_bicepcover,
+right_shoulder_side,right_thumb1,right_thumb,right_thumb3,right_index1,right_index,right_index3,
+right_middle1,right_middle,right_middle3,right_ring1,right_ring,right_ring3,right_ring4,right_pinky1,
+right_pinky,right_pinky3,right_pinky4,right_handcover,right_cover_handring,right_cover_handpinky,right_cover_thumb,
+right_cover_index,right_cover_middle,right_cover_ring,right_cover_pinky,left_shoulder_up,left_bicep_rotate,
+left_bicep,left_bicepcover,left_shoulder_side,left_thumb1,left_thumb,left_thumb3,left_index1,left_index,left_index3,
+left_middle1,left_middle,left_middle3,left_ring1,left_ring,left_ring3,left_ring4,left_pinky1,left_pinky,left_pinky3,
+left_pinky4,left_handcover,left_cover_handring,left_cover_handpinky,left_cover_thumb,left_cover_index,left_cover_middle,
+left_cover_ring,left_cover_pinky,left_hand]
