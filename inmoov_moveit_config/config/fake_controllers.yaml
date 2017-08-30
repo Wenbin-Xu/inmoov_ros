@@ -1,0 +1,47 @@
+controller_list:
+  - name: fake_left_arm_controller
+    joints:
+      - waist_rotate
+      - waist_lean
+      - left_shoulder_side
+      - left_shoulder_up
+      - left_bicep_rotate
+      - left_bicep
+      - left_hand
+  - name: fake_right_arm_controller
+    joints:
+      - waist_rotate
+      - waist_lean
+      - right_shoulder_side
+      - right_shoulder_up
+      - right_bicep_rotate
+      - right_bicep
+  - name: fake_head_controller
+    joints:
+      - waist_rotate
+      - waist_lean
+      - head_tilt
+      - head_updown
+      - head_leftright
+  - name: fake_body_controller
+    joints:
+      - waist_rotate
+      - waist_lean
+      - head_tilt
+      - head_updown
+      - head_leftright
+      - left_shoulder_side
+      - left_shoulder_up
+      - left_bicep_rotate
+      - left_bicep
+      - left_hand
+      - right_shoulder_side
+      - right_shoulder_up
+      - right_bicep_rotate
+      - right_bicep
+  - name: fake_l_arm_controller
+    joints:
+      - left_shoulder_up
+      - left_bicep_rotate
+      - left_bicep
+      - left_hand
